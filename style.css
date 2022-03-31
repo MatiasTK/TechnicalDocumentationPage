@@ -1,0 +1,44 @@
+:root {
+    --background-color: #ffffff;
+    --react-color: #64dbf9;
+    --navbar-background-color: #2d303a;
+}
+
+#navbar-content {
+    background-color: var(--navbar-background-color);
+}
+
+.nav-link {
+    color: var(--react-color);
+}
+
+.code-container {
+    background-color: var(--navbar-background-color);
+    border: 1px solid var(--navbar-background-color);
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+p:last-of-type{
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    #grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    #main-doc {
+        width: 60% !important;
+    }
+    
+    #navbar-content {
+        margin-top: 4rem;
+    }
+}
